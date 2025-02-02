@@ -58,8 +58,8 @@ public class GameManager : MonoBehaviour
     {
         if (enemyScore >= winPoints || playerScore >= winPoints)
         {
-            ResetGame();
             EndGame();
+            ResetGame();
         }
     } 
         public void EndGame()
